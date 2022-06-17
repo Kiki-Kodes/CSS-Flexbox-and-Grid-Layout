@@ -1,0 +1,117 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(225, 225, 225);
+    font-size: 15px;
+    font-family: "Lexend Deca", Big Shoulder Display;
+    font-weight: 700;
+}
+
+main{
+    background-color: hsl(0, 0%, 95%);
+    width: 70%;
+    height: 500px;
+    margin: auto;
+    padding: 70px 100px;
+    
+    
+}
+/* styling the header */
+header{
+    text-align: center;
+    margin-top: 30px;  
+    margin-bottom: 100px;
+}
+a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.952);
+    font-size: 20px;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: blue;
+}
+
+/* styling the container */
+.container{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: centre;
+    align-items: centre;
+    
+}
+
+/* styling the cars */
+.container .sedan{
+    width: 50%;
+    height: 62%;
+    background-color: hsl(31, 77%, 52%);
+    padding: 30px;
+    border-radius: 2px;
+    
+
+    
+}
+.container .suv{
+    width: 50%;
+    height: 62%;
+    background-color: hsl(184, 100%, 22%);
+    padding: 30px;
+
+}
+
+.container .luxury{
+    width: 50%;
+    height: 62%;
+    background-color: hsl(179, 100%, 13%);
+    padding: 30px;
+    border-radius: 2px;
+}
+/* others */
+img{
+    padding-bottom: 20px;
+}
+
+h2{
+    color: hsl(0, 0%, 95%);
+    padding-bottom: 20px;
+}
+p{
+    text-align: left;
+    color: hsla(0, 0%, 100%, 0.75);
+    padding-bottom: 50px;
+}
+/* styling the button */
+button{
+    border-radius: 50px;
+    border: none;
+    background-color: hsl(0, 0%, 95%);
+    height: 40px;
+    width: 70%;
+    margin-bottom: 15px;
+}
+button:hover{
+    cursor: pointer;
+    background-color: transparent;
+    color: hsl(0, 0%, 95%);
+    border: 2px  solid hsl(0, 0%, 95%);
+}
+
+.b1{
+    color: hsl(31, 77%, 52%);
+}
+.b2{
+    color: hsl(184, 100%, 22%);
+}
+.b3{
+    color: hsl(179, 100%, 13%);
+}
+
+
